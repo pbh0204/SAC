@@ -17,3 +17,19 @@ this._root = this._shadowRoot.getElementById('root')
 }
 customElements.define('com-sap-sac-exercise-pbh-main', Main)
 })()
+
+onCustomWidgetResize (Width, height) {
+  this.render()
+}
+
+onCustomWidgetAfterUpdate (changedProps) {
+  
+}
+
+onCustomWidgetDestroy () {
+  
+}
+
+render () {
+  this._root.textContent = `Hello Custom Widget clientWidth: ${this.clientWidth}, clientHeight: ${this.clientHeight}`
+}
