@@ -30,7 +30,7 @@ onCustomWidgetDestroy () {
 
 async render () {
   const dataBinding = this.dataBinding
-  if (!dataBinding || dataBinding.state != = 'success') {
+  if (!dataBinding || dataBinding.state !== 'success') {
     return
   }
   this._root.textContent = JSON.stringify(dataBinding)
