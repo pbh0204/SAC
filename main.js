@@ -37,5 +37,5 @@
       }
   }
 
-  customElements.define('com-sap-sac-exercise-pbs-main', Main)
+  customElements.define('com-sap-sac-exercise-paa-main', Main)
 })()
