@@ -15,5 +15,21 @@ this._shadowRoot.appendChild(template.content.cloneNode(true))
 this._root = this._shadowRoot.getElementById('root')
 }
 }
+
+onCustomWidgetResize (Width, height) {
+  this.render()
+}
+
+onCustomWidgetAfterUpdate (changedProps) {
+  
+}
+
+onCustomWidgetDestroy () {
+  
+}
+
+render () {
+  this._root.textContent = `Hello Custom Widget clientWidth: ${this.clientWidth}, clientHeight: ${this.clientHeight}`
+}  
 customElements.define('com-sap-sac-exercise-pbj-main', Main)
 })()
