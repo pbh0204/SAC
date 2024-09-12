@@ -94,5 +94,5 @@ var parseMetadata = metadata => {
     }
   }
 
-  customElements.define('com-sap-sac-exercise-004-pbb', Main)
+  customElements.define('com-sap-sac-exercise-pcc', Main)
 })()
