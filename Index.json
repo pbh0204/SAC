@@ -11,7 +11,7 @@
    "webcomponents":[
       {
          "kind":"main",
-         "tag":"com-sap-sac-exercise-01-pbh-main",
+         "tag":"com-sap-sac-exercise-pbh-main",
          "url":"/main.js",
          "integrity":"",
          "ignoreIntegrity":true
